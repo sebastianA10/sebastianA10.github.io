@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,300;1,500;1,600&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           padding: 0px;
+           margin: 0px;
+        }
+        nav{
+            color: #ffffff;
+           
+        }
+       
+        img{
+            width: 260px;
+            height: 260px;
+            margin-top: 150px;
+        }
+       .star{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 80px;
+       
+        color: #ffffff;
+       }
+       .star1{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 25px;
+        
+        color: #ffffff;
+       }
+       table{
+        float: right;
+        padding-right:20px;
+       }
+       th{ 
+        background-color:#1ABC9C;height ;
+        border-radius: 8px;
+       }
+        .estrella{
+            width: 350px;
+            height: 60px;
+            margin-top: 0px;
+            
+        }
+        .portafolio{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 50px;
+       
+        }
+        .form{
+            background-color: #ffffff;
+            margin:auto;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+
+        }
+
+        .form_titulo{
+            font-size: 50px;
+            margin-bottom: 25px;
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        .form_contaxiner{
+            display: grid;
+            margin-top: 3em;
+            gap: 3em;
+
+        }
+        .form_group{
+            position: relative;
+            --color:#57577e;
+
+
+        }
+        .form_input{
+            width: 100%;
+            background: none;
+            color: #706c6c;
+            font-size: 1rem;
+            padding: .6em .3em;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid var(--color);
+            font-family: 'Noto Sans', sans-serif;
+
+
+        }
+        .form-label{
+            color:var(--color);
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            transform:translateY(10px);
+            transition: transform .05s color .3s ;
+
+        }
+    </style>
+</head>
+<body>
+<nav style="background-color: #2C3E50;height: 104px; position: fixed; width: 100%;">
+        <h1 style="text-align: left;transform: translateY(35px);padding-left: 50px;">START BOOTSTRAP</h1>
+        <table>
+            <tr>
+                <th style="padding: 20px; ;">  portafolio</th>
+                <th style="padding: 20px; ;">  about</th>
+                <th style="padding: 20px; ;">  contac</th>
+            </tr>
+        </table>
+    </nav>
+   
+
+    <section style="background-color: #1ABC9C;height: 850px; ;">
+       <br> <center> <img class="masthead-avatar mb-5" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt=""></center>
+       <center><h1 class="star"><b>START BOOTSTRAP</b></h1></center>
+       <center><img class="estrella" src="./estrella.jpg"alt=""></center>
+       <center><p class="star1">Graphic Artist - Web Designer - Illustrator</P> </center>
+         
+    </section>
+   
+
+
+    <section style="background-color: #ffffff;height: 1050px;">
+        <center><h1 class="portafolio"><b>POTAFOLIO</b></h1></center>
+        <center><img  style=" border-radius: 15px; width: 400px; height: 300px; " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+            <img style="border-radius: 15px; width: 400px; height: 300px; "  src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+            <img  style="border-radius: 15px; width: 400px; height: 300px;" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt=""></center>
+        <center><img style="border-radius: 15px; width: 400px; height: 300px; margin-top: 5px;"  src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+            <img  style="border-radius: 15px; width: 400px; height: 300px;" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+            <img  style="border-radius: 15px; width: 400px; height: 300px;" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt=""></center>
+
+
+
+    </section>
+
+    <section style="background-color: #1ABC9C;height: 650px;">
+        Acerca de
+    </section>
+
+    <section style="background-color: #ffffff;height: 650px;">
+        Contactame
+        <div>
+        <form class="form">
+            <h2 class="form_titulo"> Contactame</h2>
+
+            <div class="form_container">
+                <div class="form_gruop">
+                    <input type="text" id="name" class="form_input" placeholder=" ">
+                    <label for="name" class="form_label"> nombre</label>
+                    <span class="form_line"></span>
+                <div class="form_gruop">
+                    <input type="text" id="correo" class="form_input" placeholder=" ">
+                    <label for="correo"class="form_label"> correo electronico</label>
+                    <span class="form_line"></span>
+                <div class="form_gruop">
+                        <input type="text" id="numro" class="form_input" placeholder=" ">
+                        <label for="numero" class="form_label"> numero de contacto</label>
+                        <span class="form_line"></span> 
+           
+                </div>
+                <input type="submit" class="form_submit" value="enviar">
+        </form>
+               
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        Footer
+    </footer>
+   
+</body>
+</html>
